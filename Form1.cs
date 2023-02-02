@@ -26,10 +26,13 @@ namespace MQTT_Client_CanSat_Competition
         string password = "teams9999";
         MqttClient client;
         bool mqtt = true;
+        byte clientConnect;
 
         public Form1()
         {
             InitializeComponent();
+            client = new MqttClient("cansat.info");
+            clientConnect = client.Connect(Guid.NewGuid().ToString(), username, password);
         }
 
         private void publishButton_Click(object sender, EventArgs e)
