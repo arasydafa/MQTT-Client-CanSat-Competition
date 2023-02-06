@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains the code for an MQTT client that was developed for a CanSat competition in C#. CanSat is a competition where students design, build and launch a simulation of a satellite that fits into a soft drink can.
+This repository contains the code for an MQTT client that was developed for a CanSat competition in C#. CanSat is a competition where students design, build and launch a simulation of a small-scale satellites.
 
 ## Requirements
 
